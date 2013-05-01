@@ -1,0 +1,17 @@
+{
+    "name": "persevere",
+    "description": "http request with retry",
+    "author": "Roman Shtylman <shtylman@gmail.com>",
+    "version": "0.0.0",
+    "main": "./persevere.js",
+    "scripts": {
+        "test": "mocha --ui qunit --timeout 100000 test"
+    },
+    "dependencies": {
+        "retry": "0.6.0"
+    },
+    "devDependencies": {
+        "express": "3.2.1",
+        "mocha": "1.9.0"
+    }
+}
